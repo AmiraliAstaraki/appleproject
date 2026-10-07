@@ -1,8 +1,33 @@
+
+// _________bg colors____________
+
 $bg-nav: #1d1d1f;
+$bg-primary-link: #0071e3;
+$bg-primary-link-hover: #0775e4;
+
+// ________text colors_________
+
 $text-nav:#ffffffcc;
 $text-nav-hover: #fff;
-$fs-nav: 12px;
+$text-dark-link: #202020;
+$text-dark-parag: #838383;
+
+// _______paddings______
+
 $p-nav: 10px;
-$p-link: 11px;
+$p-link: 10px;
+
+// _________margins__________
+
+$me-link: 15px;
+$mb-box: 15px;
+
+// __________borders________
+
 $border-r: 30px;
-$bg-primary-link: #0071e3;
+
+// _________font sizes__________
+
+$fs-nav: 12px;
+$fs-link: 17px;
+
