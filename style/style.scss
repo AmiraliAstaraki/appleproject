@@ -17,7 +17,7 @@ nav {
   background-color: $bg-nav;
   position: fixed;
   padding: $p-nav;
-  z-index: 999;
+  z-index: $z-ful;
 
   div {
     display: flex;
@@ -141,7 +141,7 @@ main {
 
       h6 {
         font-size: 30px;
-        font-weight: 400;
+        font-weight: $fw-normal;
         color: $text-dark-link;
       }
 
@@ -193,7 +193,7 @@ main {
 
     h2 {
         font-size: 50px;
-        font-weight: 350;
+        font-weight: $fw-seminormal;
         position: absolute;
       top: 12%;
       right: 50%;
@@ -203,7 +203,7 @@ main {
 
       span{
 
-        font-weight: 600;
+        font-weight: $fw-semibold;
       }
 
       }
@@ -254,8 +254,12 @@ main {
 
 //   ___________________box 3_________________
 
-section#boxthree{   
+section#boxthree{ 
+  
+  padding: 0px $px-box;
 
+  
+  
 img{
 
     width: 100%;
@@ -265,6 +269,7 @@ img{
 section{
 
     padding: 0;
+    padding: 0px $px-box;
 }
 }
 }

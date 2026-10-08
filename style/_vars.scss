@@ -15,12 +15,13 @@ $text-dark-parag: #838383;
 // _______paddings______
 
 $p-nav: 10px;
-$p-link: 10px;
+$p-link: 8px;
+$px-box: 6px;
 
 // _________margins__________
 
 $me-link: 15px;
-$mb-box: 15px;
+$mb-box: 12px;
 
 // __________borders________
 
@@ -30,4 +31,17 @@ $border-r: 30px;
 
 $fs-nav: 12px;
 $fs-link: 17px;
+
+// ____________font weight____________
+
+$fw-lighter: 100;
+$fw-light: 300;
+$fw-seminormal: 350;
+$fw-normal: 400;
+$fw-semibold: 600;
+$fw-bold: 700;
+
+// ______________z-index______________
+
+$z-full: 999;
 

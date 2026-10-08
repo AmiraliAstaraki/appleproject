@@ -9,7 +9,7 @@ nav {
   background-color: rgba(29, 29, 31, 0.97);
   position: fixed;
   padding: 10px;
-  z-index: 999;
+  z-index: $z-full;
 }
 nav div {
   display: flex;
@@ -39,7 +39,7 @@ nav div div ul li a:hover {
 
 header {
   position: relative;
-  margin-bottom: 15px;
+  margin-bottom: 12px;
 }
 header img {
   width: 100%;
@@ -60,7 +60,7 @@ header section p {
 }
 header section a {
   display: inline-block;
-  padding: 10px;
+  padding: 8px;
   border-radius: 30px;
   text-decoration: none;
   font-size: 17px;
@@ -85,7 +85,7 @@ header section a.buy:hover {
 
 main section#boxone {
   position: relative;
-  margin-bottom: 15px;
+  margin-bottom: 12px;
 }
 main section#boxone img {
   width: 100%;
@@ -113,7 +113,7 @@ main section#boxone section p {
 }
 main section#boxone section a {
   display: inline-block;
-  padding: 10px;
+  padding: 8px;
   border-radius: 30px;
   text-decoration: none;
   font-size: 17px;
@@ -137,7 +137,7 @@ main section#boxone section a#view:hover {
 }
 main section#boxtwo {
   position: relative;
-  margin-bottom: 15px;
+  margin-bottom: 12px;
 }
 main section#boxtwo img {
   width: 100%;
@@ -168,7 +168,7 @@ main section#boxtwo section p {
 }
 main section#boxtwo section a {
   display: inline-block;
-  padding: 10px;
+  padding: 8px;
   border-radius: 30px;
   text-decoration: none;
   font-size: 17px;
@@ -190,9 +190,13 @@ main section#boxtwo section a.buy:hover {
   background-color: #0071e3;
   color: #fff;
 }
+main section#boxthree {
+  padding: 0px 6px;
+}
 main section#boxthree img {
   width: 100%;
 }
 main section#boxthree section {
   padding: 0;
+  padding: 0px 6px;
 }/*# sourceMappingURL=style.css.map */
