@@ -31,8 +31,11 @@ $border-r: 30px;
 
 $fs-nav: 12px;
 $fs-link: 17px;
+$fs-header: 60px;
+$fs-p-header: 30px;
+$fs-h2-box: 55px;
 
-// ____________font weight____________
+// ____________font weights____________
 
 $fw-lighter: 100;
 $fw-light: 300;
@@ -41,7 +44,28 @@ $fw-normal: 400;
 $fw-semibold: 600;
 $fw-bold: 700;
 
-// ______________z-index______________
+// ______________z-indexes______________
 
 $z-full: 999;
+
+
+
+
+// ___________________________________________________box 3: half boxes________________________________________________
+
+// __________paddings_______________
+
+$p-link-halfbox: 8px;
+
+// _________font sizes______________
+
+$fs-p-halfbox: 19px;
+$fs-link-halfbox: 15px;
+$fs-title-halfbox: 35px;
+
+
+// _________________width_______________
+
+$w-linkb-halfbox: 105px;
+$w-links-halfbox: 65px;
 

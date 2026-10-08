@@ -17,7 +17,7 @@ nav {
   background-color: $bg-nav;
   position: fixed;
   padding: $p-nav;
-  z-index: $z-ful;
+  z-index: $z-full;
 
   div {
     display: flex;
@@ -74,11 +74,11 @@ header {
     text-align: center;
 
     h1 {
-      font-size: 60px;
+      font-size: $fs-header;
     }
 
     p {
-      font-size: 30px;
+      font-size: $fs-p-header;
     }
 
     a {
@@ -115,7 +115,6 @@ header {
 // _________________main_________________
 
 main {
-
   // __________________box 1__________________
 
   section#boxone {
@@ -128,14 +127,14 @@ main {
 
     section {
       position: absolute;
-      top: 12%;
+      top: 8%;
       right: 50%;
       transform: translateX(50%);
       color: $text-nav-hover;
       text-align: center;
 
       h2 {
-        font-size: 55px;
+        font-size: $fs-h2-box;
         color: $text-dark-link;
       }
 
@@ -192,32 +191,30 @@ main {
     }
 
     h2 {
-        font-size: 50px;
-        font-weight: $fw-seminormal;
-        position: absolute;
+      font-size: 50px;
+      font-weight: $fw-seminormal;
+      position: absolute;
       top: 12%;
       right: 50%;
       transform: translateX(50%);
       color: $text-nav-hover;
       text-align: center;
 
-      span{
-
+      span {
         font-weight: $fw-semibold;
       }
-
-      }
+    }
 
     section {
       position: absolute;
-      bottom: 12%;
+      bottom: 10%;
       right: 50%;
       transform: translateX(50%);
       color: $text-nav-hover;
       text-align: center;
 
       p {
-        font-size: 30px;
+        font-size: $fs-p-header;
       }
 
       a {
@@ -251,25 +248,129 @@ main {
     }
   }
 
+  //   ___________________box 3_________________
 
-//   ___________________box 3_________________
+  section#boxthree {
+    margin-bottom: $mb-box;
 
-section#boxthree{ 
-  
-  padding: 0px $px-box;
+    section {
+      padding: 0px $px-box;
 
-  
-  
-img{
+      img {
+        width: 100%;
+      }
 
-    width: 100%;
-}
+      section#halfboxone {
+        position: relative;
+        padding: 0;
+        padding: 0px $px-box;
 
+        section {
+          position: absolute;
+          top: 10%;
+          right: 50%;
+          transform: translateX(50%);
+          color: $text-nav-hover;
+          text-align: center;
 
-section{
+          h2 {
+            font-weight: $fw-seminormal;
 
-    padding: 0;
-    padding: 0px $px-box;
-}
-}
+            span {
+              font-weight: $fw-semibold;
+            }
+          }
+
+          p {
+            font-size: $fs-p-halfbox;
+          }
+
+          a {
+            display: inline-block;
+            padding: $p-link-halfbox;
+            border-radius: $border-r;
+            text-decoration: none;
+            font-size: $fs-link-halfbox;
+          }
+
+          a.learnmore {
+            width: $w-linkb-halfbox;
+            color: $text-nav-hover;
+            background-color: $bg-primary-link;
+            margin-right: $me-link;
+          }
+
+          a.learnmore:hover {
+            background-color: $bg-primary-link-hover;
+          }
+
+          a.buy {
+            width: $w-links-halfbox;
+            border: 1px solid $bg-primary-link;
+          }
+
+          a.buy:hover {
+            background-color: $bg-primary-link;
+            color: $text-nav-hover;
+          }
+        }
+      }
+
+      section#halfboxtwo {
+        position: relative;
+        padding: 0;
+        padding: 0px $px-box;
+
+        section {
+          position: absolute;
+          top: 10%;
+          right: 50%;
+          transform: translateX(50%);
+          color: $text-dark-link;
+          text-align: center;
+
+          h2 {
+
+            font-weight: $fw-semibold;
+            font-size: $fs-title-halfbox;
+
+          }
+
+          p {
+            font-size: $fs-p-halfbox;
+            font-weight: $fw-semibold;
+          }
+
+          a {
+            display: inline-block;
+            padding: $p-link-halfbox;
+            border-radius: $border-r;
+            text-decoration: none;
+            font-size: $fs-link-halfbox;
+          }
+
+          a.learnmore {
+            width: $w-linkb-halfbox;
+            color: $text-nav-hover;
+            background-color: $bg-primary-link;
+            margin-right: $me-link;
+          }
+
+          a.learnmore:hover {
+            background-color: $bg-primary-link-hover;
+          }
+
+          a.buy {
+            width: $w-links-halfbox;
+            border: 1px solid $bg-primary-link;
+          }
+
+          a.buy:hover {
+            background-color: $bg-primary-link;
+            color: $text-nav-hover;
+          }
+        }
+      }
+    }
+  }
 }
