@@ -222,11 +222,11 @@ main section#boxthree section section#halfboxone section h2 span {
   font-weight: 600;
 }
 main section#boxthree section section#halfboxone section p {
-  font-size: 19px;
+  font-size: 21px;
 }
 main section#boxthree section section#halfboxone section a {
   display: inline-block;
-  padding: 8px;
+  padding: 7px;
   border-radius: 30px;
   text-decoration: none;
   font-size: 15px;
@@ -266,12 +266,11 @@ main section#boxthree section section#halfboxtwo section h2 {
   font-size: 35px;
 }
 main section#boxthree section section#halfboxtwo section p {
-  font-size: 19px;
-  font-weight: 600;
+  font-size: 21px;
 }
 main section#boxthree section section#halfboxtwo section a {
   display: inline-block;
-  padding: 8px;
+  padding: 7px;
   border-radius: 30px;
   text-decoration: none;
   font-size: 15px;
@@ -312,18 +311,22 @@ main section#boxfour section section#halfboxone section {
   top: 10%;
   right: 50%;
   transform: translateX(50%);
-  color: #fff;
+  color: #202020;
   text-align: center;
 }
 main section#boxfour section section#halfboxone section h2 {
-  font-weight: 350;
+  font-weight: 600;
+  font-size: 35px;
+}
+main section#boxfour section section#halfboxone section h2 span {
+  color: #388ee4;
 }
 main section#boxfour section section#halfboxone section p {
-  font-size: 19px;
+  font-size: 21px;
 }
 main section#boxfour section section#halfboxone section a {
   display: inline-block;
-  padding: 8px;
+  padding: 7px;
   border-radius: 30px;
   text-decoration: none;
   font-size: 15px;
@@ -363,12 +366,11 @@ main section#boxfour section section#halfboxtwo section h2 {
   font-size: 35px;
 }
 main section#boxfour section section#halfboxtwo section p {
-  font-size: 19px;
-  font-weight: 600;
+  font-size: 21px;
 }
 main section#boxfour section section#halfboxtwo section a {
   display: inline-block;
-  padding: 8px;
+  padding: 7px;
   border-radius: 30px;
   text-decoration: none;
   font-size: 15px;
@@ -387,6 +389,106 @@ main section#boxfour section section#halfboxtwo section a.buy {
   border: 1px solid #0071e3;
 }
 main section#boxfour section section#halfboxtwo section a.buy:hover {
+  background-color: #0071e3;
+  color: #fff;
+}
+main section#boxfive {
+  margin-bottom: 12px;
+}
+main section#boxfive section {
+  padding: 0px 6px;
+}
+main section#boxfive section img {
+  width: 100%;
+}
+main section#boxfive section section#halfboxone {
+  position: relative;
+  padding: 0;
+  padding: 0px 6px;
+}
+main section#boxfive section section#halfboxone section {
+  position: absolute;
+  top: 10%;
+  right: 50%;
+  transform: translateX(50%);
+  color: #202020;
+  text-align: center;
+}
+main section#boxfive section section#halfboxone section h2 {
+  font-weight: 600;
+  font-size: 35px;
+}
+main section#boxfive section section#halfboxone section h2 span {
+  color: #388ee4;
+}
+main section#boxfive section section#halfboxone section p {
+  font-size: 21px;
+}
+main section#boxfive section section#halfboxone section a {
+  display: inline-block;
+  padding: 7px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 15px;
+}
+main section#boxfive section section#halfboxone section a.learnmore {
+  width: 105px;
+  color: #fff;
+  background-color: #0071e3;
+}
+main section#boxfive section section#halfboxone section a.learnmore:hover {
+  background-color: #0775e4;
+}
+main section#boxfive section section#halfboxone section a.buy {
+  width: 65px;
+  border: 1px solid #0071e3;
+}
+main section#boxfive section section#halfboxone section a.buy:hover {
+  background-color: #0071e3;
+  color: #fff;
+}
+main section#boxfive section section#halfboxtwo {
+  position: relative;
+  padding: 0;
+  padding: 0px 6px;
+}
+main section#boxfive section section#halfboxtwo section {
+  position: absolute;
+  top: 10%;
+  right: 50%;
+  transform: translateX(50%);
+  color: #202020;
+  text-align: center;
+}
+main section#boxfive section section#halfboxtwo section h2 {
+  font-weight: 600;
+  font-size: 35px;
+}
+main section#boxfive section section#halfboxtwo section p {
+  font-size: 21px;
+}
+main section#boxfive section section#halfboxtwo section a {
+  display: inline-block;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 15px;
+}
+main section#boxfive section section#halfboxtwo section a.learnmore {
+  width: 105px;
+  padding: 7px;
+  color: #fff;
+  background-color: #0071e3;
+  margin-right: 15px;
+}
+main section#boxfive section section#halfboxtwo section a.learnmore:hover {
+  background-color: #0775e4;
+}
+main section#boxfive section section#halfboxtwo section a.buy {
+  width: 105px;
+  padding: 6px;
+  border: 1px solid #0071e3;
+}
+main section#boxfive section section#halfboxtwo section a.buy:hover {
   background-color: #0071e3;
   color: #fff;
 }/*# sourceMappingURL=style.css.map */

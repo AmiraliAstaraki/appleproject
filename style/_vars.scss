@@ -4,6 +4,7 @@
 $bg-nav: rgb(29, 29, 31,0.970);
 $bg-primary-link: #0071e3;
 $bg-primary-link-hover: #0775e4;
+$bg-primary-garfical: #388ee4;
 
 // ________text colors_________
 
@@ -55,11 +56,11 @@ $z-full: 999;
 
 // __________paddings_______________
 
-$p-link-halfbox: 8px;
+$p-link-halfbox: 7px;
 
 // _________font sizes______________
 
-$fs-p-halfbox: 19px;
+$fs-p-halfbox: 21px;
 $fs-link-halfbox: 15px;
 $fs-title-halfbox: 35px;
 
@@ -68,4 +69,9 @@ $fs-title-halfbox: 35px;
 
 $w-linkb-halfbox: 105px;
 $w-links-halfbox: 65px;
+
+
+// ___________________box 5___________________
+
+$p-linkb-halfbox: 6px;
 

@@ -9,7 +9,9 @@
   padding: 0;
   box-sizing: border-box;
   direction: ltr;
-  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+  font-family:
+    "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial",
+    sans-serif;
 }
 
 // ____________________navbar____________________
@@ -333,15 +335,12 @@ main {
           text-align: center;
 
           h2 {
-
             font-weight: $fw-semibold;
             font-size: $fs-title-halfbox;
-
           }
 
           p {
             font-size: $fs-p-halfbox;
-            font-weight: $fw-semibold;
           }
 
           a {
@@ -377,14 +376,7 @@ main {
     }
   }
 
-
-
-
-
-
-
-
-
+  //   ___________________box 4_________________
 
   section#boxfour {
     margin-bottom: $mb-box;
@@ -406,11 +398,16 @@ main {
           top: 10%;
           right: 50%;
           transform: translateX(50%);
-          color: $text-nav-hover;
+          color: $text-dark-link;
           text-align: center;
 
           h2 {
-            font-weight: $fw-seminormal;
+            font-weight: $fw-semibold;
+            font-size: $fs-title-halfbox;
+
+            span {
+              color: $bg-primary-garfical;
+            }
           }
 
           p {
@@ -462,15 +459,12 @@ main {
           text-align: center;
 
           h2 {
-
             font-weight: $fw-semibold;
             font-size: $fs-title-halfbox;
-
           }
 
           p {
             font-size: $fs-p-halfbox;
-            font-weight: $fw-semibold;
           }
 
           a {
@@ -494,6 +488,130 @@ main {
 
           a.buy {
             width: $w-links-halfbox;
+            border: 1px solid $bg-primary-link;
+          }
+
+          a.buy:hover {
+            background-color: $bg-primary-link;
+            color: $text-nav-hover;
+          }
+        }
+      }
+    }
+  }
+
+  // ___________________box 5____________________
+
+  section#boxfive {
+    margin-bottom: $mb-box;
+
+    section {
+      padding: 0px $px-box;
+
+      img {
+        width: 100%;
+      }
+
+      section#halfboxone {
+        position: relative;
+        padding: 0;
+        padding: 0px $px-box;
+
+        section {
+          position: absolute;
+          top: 10%;
+          right: 50%;
+          transform: translateX(50%);
+          color: $text-dark-link;
+          text-align: center;
+
+          h2 {
+            font-weight: $fw-semibold;
+            font-size: $fs-title-halfbox;
+
+            span {
+              color: $bg-primary-garfical;
+            }
+          }
+
+          p {
+            font-size: $fs-p-halfbox;
+          }
+
+          a {
+            display: inline-block;
+            padding: $p-link-halfbox;
+            border-radius: $border-r;
+            text-decoration: none;
+            font-size: $fs-link-halfbox;
+          }
+
+          a.learnmore {
+            width: $w-linkb-halfbox;
+            color: $text-nav-hover;
+            background-color: $bg-primary-link;
+          }
+
+          a.learnmore:hover {
+            background-color: $bg-primary-link-hover;
+          }
+
+          a.buy {
+            width: $w-links-halfbox;
+            border: 1px solid $bg-primary-link;
+          }
+
+          a.buy:hover {
+            background-color: $bg-primary-link;
+            color: $text-nav-hover;
+          }
+        }
+      }
+
+      section#halfboxtwo {
+        position: relative;
+        padding: 0;
+        padding: 0px $px-box;
+
+        section {
+          position: absolute;
+          top: 10%;
+          right: 50%;
+          transform: translateX(50%);
+          color: $text-dark-link;
+          text-align: center;
+
+          h2 {
+            font-weight: $fw-semibold;
+            font-size: $fs-title-halfbox;
+          }
+
+          p {
+            font-size: $fs-p-halfbox;
+          }
+
+          a {
+            display: inline-block;
+            border-radius: $border-r;
+            text-decoration: none;
+            font-size: $fs-link-halfbox;
+          }
+
+          a.learnmore {
+            width: $w-linkb-halfbox;
+            padding: $p-link-halfbox;
+            color: $text-nav-hover;
+            background-color: $bg-primary-link;
+            margin-right: $me-link;
+          }
+
+          a.learnmore:hover {
+            background-color: $bg-primary-link-hover;
+          }
+
+          a.buy {
+            width: $w-linkb-halfbox;
+            padding: $p-linkb-halfbox;
             border: 1px solid $bg-primary-link;
           }
 
