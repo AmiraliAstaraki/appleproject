@@ -651,3 +651,99 @@ main {
     }
   }
 }
+
+
+// __________________footer______________________________
+
+footer {
+
+  aside {
+
+    padding: 0px 12%;
+    font-size: $fs-nav;
+
+    div {
+
+      span {
+
+        display: block;
+        font-weight: $fw-semibold;
+        margin-bottom: $mb-sub;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+
+        li {
+
+          margin-bottom: $mb-link;
+
+          a {
+
+            color: $text-dark-parag;
+            text-decoration: none;
+
+          }
+
+          a:hover {
+
+            text-decoration: underline;
+          }
+
+        }
+
+      }
+
+    }
+
+
+  }
+
+
+  section{
+
+    padding: 0 12%;
+
+    div{
+
+        p{
+
+            color: $text-copyright;
+            font-size: $fs-nav;
+        }
+    }
+  }
+
+  
+
+  div#copyright{
+
+    padding: 0px 12%;
+
+    p{
+
+      color: $text-copyright;
+    }
+
+    ul{
+
+      list-style: none;
+      
+      font-size: $fs-nav;
+
+      li{
+
+        display: inline;
+        a{
+
+          color: $text-copyright;
+          text-decoration: none;
+        }
+      }
+    }
+
+
+  }
+
+}

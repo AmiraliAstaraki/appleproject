@@ -1,17 +1,19 @@
 
 // _________bg colors____________
 
-$bg-nav: rgb(29, 29, 31,0.970);
+$bg-nav: #1d1d1ff7;
 $bg-primary-link: #0071e3;
 $bg-primary-link-hover: #0775e4;
 $bg-primary-garfical: #388ee4;
+$bg-carousel: #f5f5f7;
 
 // ________text colors_________
 
 $text-nav:#ffffffcc;
 $text-nav-hover: #fff;
 $text-dark-link: #202020;
-$text-dark-parag: #838383;
+$text-dark-parag: #868686;
+$text-copyright: #919191;
 
 // _______paddings______
 
@@ -78,7 +80,13 @@ $p-linkb-halfbox: 6px;
 
 // ______________carousel___________________
 
-$bg-carousel: #f5f5f7;
 $fs-heading-carousel: 56px;
 $p-box-carousel: 35px;
+
+
+// _____________________footer_____________________
+
+
+$mb-link: 7px;
+$mb-sub: 5px;
 
