@@ -684,13 +684,16 @@ footer section div p {
 
 footer div#copyright {
   padding: 0px 12%;
+  font-size: 12px;
 }
 
 footer div#copyright p {
+  padding: 0;
   color: #919191;
 }
 
 footer div#copyright ul {
+  padding: 0;
   list-style: none;
   font-size: 12px;
 }
@@ -702,5 +705,23 @@ footer div#copyright ul li {
 footer div#copyright ul li a {
   color: #919191;
   text-decoration: none;
+}
+
+footer div#copyright ul li a:hover {
+  text-decoration: underline;
+}
+
+footer div#copyright span {
+  padding: 0;
+  text-align: right;
+}
+
+footer div#copyright span a {
+  color: #919191;
+  text-decoration: none;
+}
+
+footer div#copyright span a:hover {
+  text-decoration: underline;
 }
 /*# sourceMappingURL=style.css.map */
