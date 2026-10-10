@@ -623,4 +623,31 @@ main {
       }
     }
   }
+
+  // ________________________carousel_____________________________________
+
+  section#carousel {
+    background-color: $bg-carousel;
+    padding-top: $p-box-carousel;
+
+    h2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-size: $fs-heading-carousel;
+      font-weight: $fw-semibold;
+      color: $text-dark-link;
+      padding: $p-nav 0px;
+    }
+
+    div {
+      margin: 10px auto;
+
+      div#carouselimage {
+        width: 99%;
+
+      }
+    }
+  }
 }
