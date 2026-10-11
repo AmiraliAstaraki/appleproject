@@ -1,4 +1,3 @@
-
 // _________bg colors____________
 
 $bg-nav: #1d1d1ff7;
@@ -9,11 +8,12 @@ $bg-carousel: #f5f5f7;
 
 // ________text colors_________
 
-$text-nav:#ffffffcc;
+$text-nav: #ffffffcc;
 $text-nav-hover: #fff;
 $text-dark-link: #202020;
 $text-dark-parag: #868686;
 $text-copyright: #919191;
+$color-border: #d4d4d4;
 
 // _______paddings______
 
@@ -51,9 +51,6 @@ $fw-bold: 700;
 
 $z-full: 999;
 
-
-
-
 // ___________________________________________________box 3: half boxes________________________________________________
 
 // __________paddings_______________
@@ -66,27 +63,28 @@ $fs-p-halfbox: 21px;
 $fs-link-halfbox: 15px;
 $fs-title-halfbox: 35px;
 
-
 // _________________width_______________
 
 $w-linkb-halfbox: 105px;
 $w-links-halfbox: 65px;
 
-
 // ___________________box 5___________________
 
 $p-linkb-halfbox: 6px;
-
 
 // ______________carousel___________________
 
 $fs-heading-carousel: 56px;
 $p-box-carousel: 35px;
 
+// ______________article____________
+
+$pt-link: 50px;
+$pb-parag: 9px;
 
 // _____________________footer_____________________
 
-
+$pt-aside: 20px;
 $mb-link: 7px;
 $mb-sub: 5px;
-
+$text-hover-link: #388add;
