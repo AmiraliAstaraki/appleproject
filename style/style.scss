@@ -764,13 +764,13 @@ footer {
 
       ul {
         list-style: none;
-        font-size: $fs-nav;
 
         li {
           display: inline;
           a {
-            color: $text-copyright;
+            color: $text-dark-link;
             text-decoration: none;
+            padding: 0px $px-privacy;
           }
 
           a:hover {

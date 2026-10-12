@@ -597,14 +597,14 @@ footer section div#copyright p {
 }
 footer section div#copyright ul {
   list-style: none;
-  font-size: 12px;
 }
 footer section div#copyright ul li {
   display: inline;
 }
 footer section div#copyright ul li a {
-  color: #919191;
+  color: #202020;
   text-decoration: none;
+  padding: 0px 5px;
 }
 footer section div#copyright ul li a:hover {
   text-decoration: underline;
