@@ -778,8 +778,10 @@ footer {
 
         li {
           display: inline;
+          color: $text-copyright;
+
           a {
-            color: $text-dark-link;
+            color: $text-copyright;
             text-decoration: none;
             padding: 0px $px-privacy;
           }
@@ -801,6 +803,39 @@ footer {
         a:hover {
           text-decoration: underline;
         }
+      }
+    }
+  }
+} 
+
+@media(max-width:1440px){
+
+  header{
+
+    section{
+
+      top: 10%;
+    }
+  }
+  
+}
+
+
+@media(max-width:1285px){
+
+  header{
+
+    section{
+
+      
+      h1{
+
+        font-size: 50px;
+      }
+
+      img{
+
+        height: 300px;
       }
     }
   }
