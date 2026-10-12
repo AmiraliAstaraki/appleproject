@@ -37,21 +37,31 @@ nav {
     }
 
     div {
-      ul {
-        display: flex;
-        align-items: center;
-        gap: 20px;
+      margin: auto;
 
-        li {
-          a {
-            color: $text-nav;
-            text-decoration: none;
-            font-size: $fs-nav;
-            transition: all 0.7s;
+      div {
+        ul {
+          display: flex;
+          align-items: center;
+          gap: 35px;
+
+          li#appleicon {
+            a {
+              font-size: 17px;
+            }
           }
 
-          a:hover {
-            color: $text-nav-hover;
+          li {
+            a {
+              color: $text-nav;
+              text-decoration: none;
+              font-size: $fs-nav;
+              transition: all 0.7s;
+            }
+
+            a:hover {
+              color: $text-nav-hover;
+            }
           }
         }
       }
@@ -661,8 +671,7 @@ main {
         font-size: $fs-nav;
         color: $text-dark-parag;
 
-        a{
-
+        a {
           color: $text-dark-link;
         }
 

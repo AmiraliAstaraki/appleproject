@@ -24,18 +24,24 @@ nav div a.apple-icon i {
 nav div a.apple-icon i:hover {
   color: #fff;
 }
-nav div div ul {
+nav div div {
+  margin: auto;
+}
+nav div div div ul {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 35px;
 }
-nav div div ul li a {
+nav div div div ul li#appleicon a {
+  font-size: 17px;
+}
+nav div div div ul li a {
   color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
   font-size: 12px;
   transition: all 0.7s;
 }
-nav div div ul li a:hover {
+nav div div div ul li a:hover {
   color: #fff;
 }
 
