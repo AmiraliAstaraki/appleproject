@@ -62,6 +62,8 @@ header section {
 }
 header section h1 {
   font-size: 60px;
+  font-weight: 600;
+  margin: 0;
 }
 header section p {
   font-size: 30px;
