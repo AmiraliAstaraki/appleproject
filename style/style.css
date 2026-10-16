@@ -785,7 +785,7 @@ footer section div#copyright span a:hover {
   footer section section {
     padding: 0 18%;
   }
-  footer section div#copyrigth {
+  footer section div#copyright {
     padding: 15px 18% 0px 18%;
   }
 }
@@ -1150,6 +1150,11 @@ footer section div#copyright span a:hover {
     padding: 15px 10% 0px 10%;
   }
 }
+@media (max-width: 1077px) {
+  footer div#copyright {
+    display: block;
+  }
+}
 @media (max-width: 1015px) {
   header section {
     top: 15%;
@@ -1346,65 +1351,226 @@ footer section div#copyright span a:hover {
     top: 15%;
   }
   header section h1 {
-    font-size: 28px;
-  }
-  header section p {
-    font-size: 18px;
-    margin-bottom: 8px;
+    font-size: 60px;
   }
   header section a {
-    font-size: 11px;
-    padding: 6px;
+    font-size: 15px;
   }
   header section a.learnmore {
-    width: 75px;
+    width: 105px;
   }
   header section a.buy {
-    width: 47px;
+    width: 68px;
   }
   main section#boxone section {
-    top: 0;
+    top: 6%;
   }
   main section#boxone section h2 {
-    font-size: 30px;
-  }
-  main section#boxone section h6 {
-    font-size: 18px;
-  }
-  main section#boxone section p {
-    font-size: 12px;
-    margin-bottom: 8px;
+    font-size: 50px;
   }
   main section#boxone section a {
-    font-size: 11px;
-    padding: 5px;
+    font-size: 13px;
   }
   main section#boxone section a.learnmore {
-    width: 75px;
+    width: 105px;
   }
   main section#boxone section a#view {
-    width: 80px;
+    width: 115px;
   }
   main section#boxtwo h2 {
-    top: 9%;
-    font-size: 30px;
+    top: 10%;
+    font-size: 45px;
   }
   main section#boxtwo section {
-    bottom: 5%;
+    bottom: 8%;
   }
   main section#boxtwo section P {
-    font-size: 16px;
-    margin-bottom: 8px;
+    font-size: 27px;
   }
   main section#boxtwo section a {
-    font-size: 11px;
-    padding: 6px;
+    font-size: 13px;
   }
   main section#boxtwo section a.learnmore {
-    width: 75px;
+    width: 105px;
   }
   main section#boxtwo section a.buy {
-    width: 50px;
+    width: 65px;
+  }
+  main section#boxthree section section#halfboxone section {
+    top: 5%;
+  }
+  main section#boxthree section section#halfboxone section h2 {
+    font-size: 32px;
+  }
+  main section#boxthree section section#halfboxone section p {
+    font-size: 22px;
+  }
+  main section#boxthree section section#halfboxone section a {
+    font-size: 18px;
+    padding: 7px;
+  }
+  main section#boxthree section section#halfboxone section a.learnmore {
+    width: 120px;
+  }
+  main section#boxthree section section#halfboxone section a.buy {
+    width: 70px;
+  }
+  main section#boxthree section section#halfboxtwo section {
+    top: 5%;
+  }
+  main section#boxthree section section#halfboxtwo section h2 {
+    font-size: 35px;
+  }
+  main section#boxthree section section#halfboxtwo section p {
+    font-size: 20px;
+  }
+  main section#boxthree section section#halfboxtwo section a {
+    font-size: 18px;
+    padding: 7px;
+  }
+  main section#boxthree section section#halfboxtwo section a.learnmore {
+    width: 120px;
+  }
+  main section#boxthree section section#halfboxtwo section a.buy {
+    width: 70px;
+  }
+  main section#boxfour section section#halfboxone section {
+    top: 5%;
+  }
+  main section#boxfour section section#halfboxone section h2 {
+    font-size: 37px;
+  }
+  main section#boxfour section section#halfboxone section p {
+    font-size: 20px;
+  }
+  main section#boxfour section section#halfboxone section a {
+    font-size: 18px;
+    padding: 7px;
+  }
+  main section#boxfour section section#halfboxone section a.learnmore {
+    width: 120px;
+  }
+  main section#boxfour section section#halfboxone section a.buy {
+    width: 70px;
+  }
+  main section#boxfour section section#halfboxtwo section {
+    top: 4%;
+  }
+  main section#boxfour section section#halfboxtwo section h2 {
+    font-size: 33px;
+  }
+  main section#boxfour section section#halfboxtwo section p {
+    font-size: 19px;
+  }
+  main section#boxfour section section#halfboxtwo section a {
+    font-size: 18px;
+    padding: 7px;
+  }
+  main section#boxfour section section#halfboxtwo section a.learnmore {
+    width: 120px;
+  }
+  main section#boxfour section section#halfboxtwo section a.buy {
+    width: 70px;
+  }
+  main section#boxfive section section#halfboxone section {
+    top: 5%;
+  }
+  main section#boxfive section section#halfboxone section h2 {
+    font-size: 35px;
+  }
+  main section#boxfive section section#halfboxone section p {
+    font-size: 19px;
+  }
+  main section#boxfive section section#halfboxone section a {
+    font-size: 18px;
+  }
+  main section#boxfive section section#halfboxone section a.learnmore {
+    width: 120px;
+  }
+  main section#boxfive section section#halfboxtwo section {
+    top: 4%;
+  }
+  main section#boxfive section section#halfboxtwo section h2 {
+    font-size: 35px;
+  }
+  main section#boxfive section section#halfboxtwo section p {
+    font-size: 18px;
+  }
+  main section#boxfive section section#halfboxtwo section a {
+    font-size: 18px;
+    padding: 7px;
+  }
+  main section#boxfive section section#halfboxtwo section a.learnmore {
+    width: 120px;
+  }
+  main section#boxfive section section#halfboxtwo section a.buy {
+    width: 125px;
+  }
+  main section#carousel h2 {
+    font-size: 50px;
+  }
+  main section#article article {
+    padding: 50px 5% 0px 5%;
+  }
+  footer section aside {
+    padding: 20px 5% 0px 5%;
+  }
+  footer section section {
+    padding: 0 5%;
+  }
+  footer section div#copyright {
+    padding: 15px 5% 0px 5%;
+  }
+}
+@media (max-width: 633px) {
+  header section {
+    top: 15%;
+  }
+  header section h1 {
+    font-size: 60px;
+  }
+  header section a {
+    font-size: 15px;
+  }
+  header section a.learnmore {
+    width: 105px;
+  }
+  header section a.buy {
+    width: 68px;
+  }
+  main section#boxone section {
+    top: 6%;
+  }
+  main section#boxone section h2 {
+    font-size: 50px;
+  }
+  main section#boxone section a {
+    font-size: 13px;
+  }
+  main section#boxone section a.learnmore {
+    width: 105px;
+  }
+  main section#boxone section a#view {
+    width: 115px;
+  }
+  main section#boxtwo h2 {
+    top: 10%;
+    font-size: 45px;
+  }
+  main section#boxtwo section {
+    bottom: 8%;
+  }
+  main section#boxtwo section P {
+    font-size: 27px;
+  }
+  main section#boxtwo section a {
+    font-size: 13px;
+  }
+  main section#boxtwo section a.learnmore {
+    width: 105px;
+  }
+  main section#boxtwo section a.buy {
+    width: 65px;
   }
   main section#boxthree section {
     padding: 0px;
@@ -1414,23 +1580,23 @@ footer section div#copyright span a:hover {
     margin-bottom: 12px;
   }
   main section#boxthree section section#halfboxone section {
-    top: 6%;
+    top: 5%;
   }
   main section#boxthree section section#halfboxone section h2 {
-    font-size: 17px;
+    font-size: 24px;
   }
   main section#boxthree section section#halfboxone section p {
-    font-size: 12px;
+    font-size: 17px;
   }
   main section#boxthree section section#halfboxone section a {
-    font-size: 11px;
-    padding: 4px;
+    font-size: 15px;
+    padding: 5px;
   }
   main section#boxthree section section#halfboxone section a.learnmore {
-    width: 75px;
+    width: 100px;
   }
   main section#boxthree section section#halfboxone section a.buy {
-    width: 45px;
+    width: 60px;
   }
   main section#boxthree section section#halfboxtwo {
     padding: 0px;
@@ -1439,20 +1605,20 @@ footer section div#copyright span a:hover {
     top: 5%;
   }
   main section#boxthree section section#halfboxtwo section h2 {
-    font-size: 20px;
+    font-size: 24px;
   }
   main section#boxthree section section#halfboxtwo section p {
-    font-size: 12px;
+    font-size: 17px;
   }
   main section#boxthree section section#halfboxtwo section a {
-    font-size: 11px;
-    padding: 5px;
+    font-size: 15px;
+    padding: 6px;
   }
   main section#boxthree section section#halfboxtwo section a.learnmore {
-    width: 75px;
+    width: 100px;
   }
   main section#boxthree section section#halfboxtwo section a.buy {
-    width: 45px;
+    width: 60px;
   }
   main section#boxfour section {
     padding: 0px;
@@ -1465,20 +1631,20 @@ footer section div#copyright span a:hover {
     top: 3%;
   }
   main section#boxfour section section#halfboxone section h2 {
-    font-size: 20px;
+    font-size: 26px;
   }
   main section#boxfour section section#halfboxone section p {
-    font-size: 12px;
+    font-size: 18px;
   }
   main section#boxfour section section#halfboxone section a {
-    font-size: 11px;
-    padding: 5px;
+    font-size: 15px;
+    padding: 6px;
   }
   main section#boxfour section section#halfboxone section a.learnmore {
-    width: 75px;
+    width: 100px;
   }
   main section#boxfour section section#halfboxone section a.buy {
-    width: 45px;
+    width: 60px;
   }
   main section#boxfour section section#halfboxtwo {
     padding: 0px;
@@ -1487,20 +1653,20 @@ footer section div#copyright span a:hover {
     top: 3%;
   }
   main section#boxfour section section#halfboxtwo section h2 {
-    font-size: 19px;
+    font-size: 24px;
   }
   main section#boxfour section section#halfboxtwo section p {
-    font-size: 12px;
+    font-size: 17px;
   }
   main section#boxfour section section#halfboxtwo section a {
-    font-size: 11px;
-    padding: 5px;
+    font-size: 15px;
+    padding: 6px;
   }
   main section#boxfour section section#halfboxtwo section a.learnmore {
-    width: 75px;
+    width: 100px;
   }
   main section#boxfour section section#halfboxtwo section a.buy {
-    width: 45px;
+    width: 60px;
   }
   main section#boxfive section {
     padding: 0px;
@@ -1510,43 +1676,55 @@ footer section div#copyright span a:hover {
     margin-bottom: 12px;
   }
   main section#boxfive section section#halfboxone section {
-    top: 2%;
+    top: 5%;
   }
   main section#boxfive section section#halfboxone section h2 {
-    font-size: 19px;
+    font-size: 27px;
   }
   main section#boxfive section section#halfboxone section p {
-    font-size: 12px;
+    font-size: 17px;
   }
   main section#boxfive section section#halfboxone section a {
-    font-size: 11px;
-    padding: 5px;
+    font-size: 15px;
   }
   main section#boxfive section section#halfboxone section a.learnmore {
-    width: 75px;
+    width: 100px;
   }
   main section#boxfive section section#halfboxtwo {
     padding: 0px;
   }
   main section#boxfive section section#halfboxtwo section {
-    top: 2%;
+    top: 1%;
   }
   main section#boxfive section section#halfboxtwo section h2 {
-    font-size: 20px;
+    font-size: 27px;
   }
   main section#boxfive section section#halfboxtwo section p {
-    font-size: 12px;
+    font-size: 16px;
   }
   main section#boxfive section section#halfboxtwo section a {
-    font-size: 11px;
+    font-size: 15px;
+    padding: 6px;
   }
   main section#boxfive section section#halfboxtwo section a.learnmore {
-    width: 74px;
+    width: 100px;
   }
   main section#boxfive section section#halfboxtwo section a.buy {
-    width: 75px;
+    width: 105px;
   }
   main section#carousel h2 {
-    font-size: 28px;
+    font-size: 35px;
+  }
+  main section#article article {
+    padding: 50px 5% 0px 5%;
+  }
+  footer section aside {
+    padding: 20px 5% 0px 5%;
+  }
+  footer section section {
+    padding: 0 5%;
+  }
+  footer section div#copyright {
+    padding: 15px 5% 0px 5%;
   }
 }/*# sourceMappingURL=style.css.map */

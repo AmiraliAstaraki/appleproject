@@ -696,29 +696,79 @@ main {
 footer {
   background-color: $bg-carousel;
 
-  section{
+  section {
+    aside {
+      padding: $pt-aside 24% 0px 24%;
+      font-size: $fs-nav;
 
-      aside {
-    padding: $pt-aside 24% 0px 24%;
-    font-size: $fs-nav;
+      div {
+        span {
+          display: block;
+          font-weight: $fw-semibold;
+          margin-bottom: $mb-sub;
+        }
 
-    div {
-      span {
-        display: block;
-        font-weight: $fw-semibold;
-        margin-bottom: $mb-sub;
+        ul {
+          list-style: none;
+          padding: 0;
+
+          li {
+            margin-bottom: $mb-link;
+
+            a {
+              color: $text-dark-parag;
+              text-decoration: none;
+            }
+
+            a:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+
+    section {
+      padding: 0 24%;
+
+      div {
+        border-bottom: 1px solid $color-border;
+        p {
+          padding: 0;
+          color: $text-copyright;
+          font-size: $fs-nav;
+        }
+
+        a {
+          color: $text-hover-link;
+        }
+
+        a:hover {
+          color: $text-hover-link;
+        }
+      }
+    }
+
+    div#copyright {
+      padding: $me-link 24% 0px 24%;
+      font-size: $fs-nav;
+
+      p {
+        color: $text-copyright;
+        text-align: left;
       }
 
       ul {
         list-style: none;
-        padding: 0;
 
         li {
-          margin-bottom: $mb-link;
+          display: inline;
+          color: $text-copyright;
 
           a {
-            color: $text-dark-parag;
+            color: $text-copyright;
             text-decoration: none;
+            padding: 0px $px-privacy;
           }
 
           a:hover {
@@ -726,50 +776,13 @@ footer {
           }
         }
       }
-    }
-  }
 
-  section {
-    padding: 0 24%;
-
-    div {
-      border-bottom: 1px solid $color-border;
-      p {
-        padding: 0;
-        color: $text-copyright;
-        font-size: $fs-nav;
-      }
-
-      a {
-        color: $text-hover-link;
-      }
-
-      a:hover {
-        color: $text-hover-link;
-      }
-    }
-  }
-
-  div#copyright {
-    padding: $me-link 24% 0px 24%;
-    font-size: $fs-nav;
-
-    p {
-      color: $text-copyright;
-      text-align: left;
-    }
-
-    ul {
-      list-style: none;
-
-      li {
-        display: inline;
-        color: $text-copyright;
+      span {
+        text-align: right;
 
         a {
           color: $text-copyright;
           text-decoration: none;
-          padding: 0px $px-privacy;
         }
 
         a:hover {
@@ -777,24 +790,7 @@ footer {
         }
       }
     }
-
-    span {
-      text-align: right;
-
-      a {
-        color: $text-copyright;
-        text-decoration: none;
-      }
-
-      a:hover {
-        text-decoration: underline;
-      }
-    }
   }
-
-  }
-
-  
 }
 
 // _________________mobility_____________________
@@ -1070,28 +1066,19 @@ footer {
   // ________________footer______________
 
   footer {
+    section {
+      aside {
+        padding: $pt-aside 18% 0px 18%;
+      }
 
-    section{
+      section {
+        padding: 0 18%;
+      }
 
-      aside{
-
-      padding: $pt-aside 18% 0px 18%;
+      div#copyright {
+        padding: $me-link 18% 0px 18%;
+      }
     }
-
-    section{
-
-      padding: 0 18%;
-    }
-
-    div#copyrigth{
-
-      padding: $me-link 18% 0px 18%;
-    }
-
-    }
-
-    
-
   }
 }
 
@@ -1378,28 +1365,20 @@ footer {
   // ________________footer______________
 
   footer {
+    section {
+      aside {
+        padding: $pt-aside 15% 0px 15%;
+      }
 
-    section{
-
-      aside{
-
-      padding: $pt-aside 15% 0px 15%;
-      
-    }
-
-    section{
-
-      padding: 0 15%;
-    }
+      section {
+        padding: 0 15%;
+      }
 
       div#copyright {
         font-size: 11px;
         padding: $me-link 15% 0px 15%;
       }
-
     }
-
-    
   }
 }
 
@@ -1686,43 +1665,31 @@ footer {
   // ________________footer______________
 
   footer {
+    section {
+      aside {
+        padding: $pt-aside 10% 0px 10%;
+      }
 
-    section{
+      section {
+        padding: 0 10%;
+      }
 
-      aside{
-
-      padding: $pt-aside 10% 0px 10%;
+      div#copyright {
+        padding: $me-link 10% 0px 10%;
+      }
     }
-
-    section{
-
-      padding: 0 10%;
-    }
-
-    div#copyright{
-
-      padding: $me-link 10% 0px 10%;
-    }
-
-    }
-
-    
-
   }
 }
 
 // ____________________________media(1077px)___________________
 
-// @media(max-width:1077px){
-
-//   footer{
-
-//     div#copyright{
-
-//       display: block;
-//     }
-//   }
-// }
+@media (max-width: 1077px) {
+  footer {
+    div#copyright {
+      display: block;
+    }
+  }
+}
 
 // ________________media(1015px)______________________
 
@@ -2016,29 +1983,23 @@ footer {
   }
 
   footer {
-
-    section{
-
+    section {
       aside {
         padding: $pt-aside 5% 0px 5%;
       }
 
-      section{
-
+      section {
         padding: 0 5%;
       }
 
-      div#copyright{
-
-      padding: $me-link 5% 0px 5%;
+      div#copyright {
+        padding: $me-link 5% 0px 5%;
+      }
     }
-    }
-
-      
   }
 }
 
-// ______________________media(768px)_________________________
+// ______________________media(767px)_________________________
 
 @media (max-width: 767px) {
   // ______________header________________
@@ -2048,25 +2009,19 @@ footer {
       top: 15%;
 
       h1 {
-        font-size: 28px;
-      }
-
-      p {
-        font-size: 18px;
-        margin-bottom: 8px;
+        font-size: 60px;
       }
 
       a {
-        font-size: 11px;
-        padding: 6px;
+        font-size: 15px;
       }
 
       a.learnmore {
-        width: 75px;
+        width: 105px;
       }
 
       a.buy {
-        width: 47px;
+        width: 68px;
       }
     }
   }
@@ -2078,31 +2033,21 @@ footer {
 
     section#boxone {
       section {
-        top: 0;
+        top: 6%;
         h2 {
-          font-size: 30px;
-        }
-
-        h6 {
-          font-size: 18px;
-        }
-
-        p {
-          font-size: 12px;
-          margin-bottom: 8px;
+          font-size: 50px;
         }
 
         a {
-          font-size: 11px;
-          padding: 5px;
+          font-size: 13px;
         }
 
         a.learnmore {
-          width: 75px;
+          width: 105px;
         }
 
         a#view {
-          width: 80px;
+          width: 115px;
         }
       }
     }
@@ -2111,28 +2056,26 @@ footer {
 
     section#boxtwo {
       h2 {
-        top: 9%;
-        font-size: 30px;
+        top: 10%;
+        font-size: 45px;
       }
 
       section {
-        bottom: 5%;
+        bottom: 8%;
 
         P {
-          font-size: 16px;
-          margin-bottom: 8px;
+          font-size: 27px;
         }
         a {
-          font-size: 11px;
-          padding: 6px;
+          font-size: 13px;
         }
 
         a.learnmore {
-          width: 75px;
+          width: 105px;
         }
 
         a.buy {
-          width: 50px;
+          width: 65px;
         }
       }
     }
@@ -2141,62 +2084,56 @@ footer {
 
     section#boxthree {
       section {
-        padding: 0px;
-
         section#halfboxone {
-          padding: 0px;
-          margin-bottom: $mb-box;
           section {
-            top: 6%;
+            top: 5%;
 
             h2 {
-              font-size: 17px;
+              font-size: 32px;
             }
 
             p {
-              font-size: 12px;
+              font-size: 22px;
             }
 
             a {
-              font-size: 11px;
-              padding: 4px;
+              font-size: 18px;
+              padding: 7px;
             }
 
             a.learnmore {
-              width: 75px;
+              width: 120px;
             }
 
             a.buy {
-              width: 45px;
+              width: 70px;
             }
           }
         }
 
         section#halfboxtwo {
-          padding: 0px;
-
           section {
             top: 5%;
 
             h2 {
-              font-size: 20px;
+              font-size: 35px;
             }
 
             p {
-              font-size: 12px;
+              font-size: 20px;
             }
 
             a {
-              font-size: 11px;
-              padding: 5px;
+              font-size: 18px;
+              padding: 7px;
             }
 
             a.learnmore {
-              width: 75px;
+              width: 120px;
             }
 
             a.buy {
-              width: 45px;
+              width: 70px;
             }
           }
         }
@@ -2207,63 +2144,56 @@ footer {
 
     section#boxfour {
       section {
-        padding: 0px;
-
         section#halfboxone {
-          padding: 0px;
-          margin-bottom: $mb-box;
-
           section {
-            top: 3%;
+            top: 5%;
 
             h2 {
-              font-size: 20px;
+              font-size: 37px;
             }
 
             p {
-              font-size: 12px;
+              font-size: 20px;
             }
 
             a {
-              font-size: 11px;
-              padding: 5px;
+              font-size: 18px;
+              padding: 7px;
             }
 
             a.learnmore {
-              width: 75px;
+              width: 120px;
             }
 
             a.buy {
-              width: 45px;
+              width: 70px;
             }
           }
         }
 
         section#halfboxtwo {
-          padding: 0px;
-
           section {
-            top: 3%;
+            top: 4%;
 
             h2 {
-              font-size: 19px;
+              font-size: 33px;
             }
 
             p {
-              font-size: 12px;
+              font-size: 19px;
             }
 
             a {
-              font-size: 11px;
-              padding: 5px;
+              font-size: 18px;
+              padding: 7px;
             }
 
             a.learnmore {
-              width: 75px;
+              width: 120px;
             }
 
             a.buy {
-              width: 45px;
+              width: 70px;
             }
           }
         }
@@ -2274,58 +2204,51 @@ footer {
 
     section#boxfive {
       section {
-        padding: 0px;
-
         section#halfboxone {
-          padding: 0px;
-          margin-bottom: $mb-box;
-
           section {
-            top: 2%;
+            top: 5%;
 
             h2 {
-              font-size: 19px;
+              font-size: 35px;
             }
 
             p {
-              font-size: 12px;
+              font-size: 19px;
             }
 
             a {
-              font-size: 11px;
-              padding: 5px;
+              font-size: 18px;
             }
 
             a.learnmore {
-              width: 75px;
+              width: 120px;
             }
           }
         }
 
         section#halfboxtwo {
-          padding: 0px;
-
           section {
-            top: 2%;
+            top: 4%;
 
             h2 {
-              font-size: 20px;
+              font-size: 35px;
             }
 
             p {
-              font-size: 12px;
+              font-size: 18px;
             }
 
             a {
-              font-size: 11px;
+              font-size: 18px;
+              padding: 7px;
             }
 
             a.learnmore {
-              width: 74px;
+              width: 120px;
             }
 
             a.buy {
-              width: 75px;
+              width: 125px;
             }
           }
         }
@@ -2336,7 +2259,356 @@ footer {
 
     section#carousel {
       h2 {
-        font-size: 28px;
+        font-size: 50px;
+      }
+    }
+
+    // __________article_______________
+
+    section#article {
+      article {
+        padding: $pt-link 5% 0px 5%;
+      }
+    }
+  }
+
+  // ________________footer______________
+
+  footer {
+    section {
+      aside {
+        padding: $pt-aside 5% 0px 5%;
+      }
+
+      section {
+        padding: 0 5%;
+      }
+
+      div#copyright {
+        padding: $me-link 5% 0px 5%;
+      }
+    }
+  }
+}
+
+// ________________________________media(633px)______________________________
+
+@media (max-width: 633px) {
+  // ______________header________________
+
+  header {
+    section {
+      top: 15%;
+
+      h1 {
+        font-size: 60px;
+      }
+
+      a {
+        font-size: 15px;
+      }
+
+      a.learnmore {
+        width: 105px;
+      }
+
+      a.buy {
+        width: 68px;
+      }
+    }
+  }
+
+  // __________main__________________
+
+  main {
+    // _____________box1_________________
+
+    section#boxone {
+      section {
+        top: 6%;
+        h2 {
+          font-size: 50px;
+        }
+
+        a {
+          font-size: 13px;
+        }
+
+        a.learnmore {
+          width: 105px;
+        }
+
+        a#view {
+          width: 115px;
+        }
+      }
+    }
+
+    // ________________box2_________________
+
+    section#boxtwo {
+      h2 {
+        top: 10%;
+        font-size: 45px;
+      }
+
+      section {
+        bottom: 8%;
+
+        P {
+          font-size: 27px;
+        }
+        a {
+          font-size: 13px;
+        }
+
+        a.learnmore {
+          width: 105px;
+        }
+
+        a.buy {
+          width: 65px;
+        }
+      }
+    }
+
+    // ______________box3____________________
+
+    section#boxthree {
+
+      section {
+
+        padding: 0px;
+
+        section#halfboxone {
+
+          padding: 0px;
+          margin-bottom: $mb-box;
+
+          section {
+            top: 5%;
+
+            h2 {
+              font-size: 24px;
+            }
+
+            p {
+              font-size: 17px;
+            }
+
+            a {
+              font-size: 15px;
+              padding: 5px;
+            }
+
+            a.learnmore {
+              width: 100px;
+            }
+
+            a.buy {
+              width: 60px;
+            }
+          }
+        }
+
+        section#halfboxtwo {
+
+          padding: 0px;
+
+          section {
+            top: 5%;
+
+            h2 {
+              font-size: 24px;
+            }
+
+            p {
+              font-size: 17px;
+            }
+
+            a {
+              font-size: 15px;
+              padding: 6px;
+            }
+
+            a.learnmore {
+              width: 100px;
+            }
+
+            a.buy {
+              width: 60px;
+            }
+          }
+        }
+      }
+    }
+
+    // _______________box4_________________
+
+    section#boxfour {
+      section {
+
+        padding: 0px;
+
+        section#halfboxone {
+          
+          padding: 0px;
+          margin-bottom: $mb-box;
+          
+          section {
+            top: 3%;
+
+            h2 {
+              font-size: 26px;
+            }
+
+            p {
+              font-size: 18px;
+            }
+
+            a {
+              font-size: 15px;
+              padding: 6px;
+            }
+
+            a.learnmore {
+              width: 100px;
+            }
+
+            a.buy {
+              width: 60px;
+            }
+          }
+        }
+
+        section#halfboxtwo {
+
+          padding: 0px;
+
+          section {
+            top: 3%;
+
+            h2 {
+              font-size: 24px;
+            }
+
+            p {
+              font-size: 17px;
+            }
+
+            a {
+              font-size: 15px;
+              padding: 6px;
+            }
+
+            a.learnmore {
+              width: 100px;
+            }
+
+            a.buy {
+              width: 60px;
+            }
+          }
+        }
+      }
+    }
+
+    // ___________________box5___________________
+
+    section#boxfive {
+      section {
+
+        padding: 0px;
+
+        section#halfboxone {
+
+          padding: 0px;
+          margin-bottom: $mb-box;
+
+          section {
+            top: 5%;
+
+            h2 {
+              font-size: 27px;
+            }
+
+            p {
+              font-size: 17px;
+            }
+
+            a {
+              font-size: 15px;
+            }
+
+            a.learnmore {
+              width: 100px;
+            }
+          }
+        }
+
+        section#halfboxtwo {
+
+          padding: 0px;
+
+          section {
+            top: 1%;
+
+            h2 {
+              font-size: 27px;
+            }
+
+            p {
+              font-size: 16px;
+            }
+
+            a {
+              font-size: 15px;
+              padding: 6px;
+            }
+
+            a.learnmore {
+              width: 100px;
+            }
+
+            a.buy {
+              width: 105px;
+            }
+          }
+        }
+      }
+    }
+
+    // _______________carousel______________
+
+    section#carousel {
+      h2 {
+        font-size: 35px;
+      }
+    }
+
+    // __________article_______________
+
+    section#article {
+      article {
+        padding: $pt-link 5% 0px 5%;
+      }
+    }
+  }
+
+  // ________________footer______________
+
+  footer {
+    section {
+      aside {
+        padding: $pt-aside 5% 0px 5%;
+      }
+
+      section {
+        padding: 0 5%;
+      }
+
+      div#copyright {
+        padding: $me-link 5% 0px 5%;
       }
     }
   }
