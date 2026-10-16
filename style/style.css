@@ -512,31 +512,31 @@ main section#carousel div div#carouselimage {
 main section#article {
   background-color: #f5f5f7;
 }
-main section#article section article {
-  padding: 50px 12% 0px 12%;
+main section#article article {
+  padding: 50px 24% 0px 24%;
   font-size: 12px;
   color: #868686;
 }
-main section#article section article a {
+main section#article article a {
   color: #202020;
 }
-main section#article section article ol {
+main section#article article ol {
   padding: 0px 17px;
   margin: 0;
 }
-main section#article section article ol li {
+main section#article article ol li {
   padding-bottom: 9px;
 }
-main section#article section article ul {
+main section#article article ul {
   list-style: none;
   padding: 0px 0px 8px 0px;
   margin: 0;
   border-bottom: 1px solid #d4d4d4;
 }
-main section#article section article ul li {
+main section#article article ul li {
   padding-bottom: 9px;
 }
-main section#article section article ul li p {
+main section#article article ul li p {
   margin: 0;
   padding-top: 9px;
 }
@@ -545,7 +545,7 @@ footer {
   background-color: #f5f5f7;
 }
 footer section aside {
-  padding: 20px 12% 0px 12%;
+  padding: 20px 24% 0px 24%;
   font-size: 12px;
 }
 footer section aside div span {
@@ -568,7 +568,7 @@ footer section aside div ul li a:hover {
   text-decoration: underline;
 }
 footer section section {
-  padding: 0 12%;
+  padding: 0 24%;
 }
 footer section section div {
   border-bottom: 1px solid #d4d4d4;
@@ -585,7 +585,7 @@ footer section section div a:hover {
   color: #388add;
 }
 footer section div#copyright {
-  padding: 15px 12% 0px 12%;
+  padding: 15px 24% 0px 24%;
   font-size: 12px;
 }
 footer section div#copyright p {
@@ -776,6 +776,18 @@ footer section div#copyright span a:hover {
   main section#carousel h2 {
     font-size: 47px;
   }
+  main section#article article {
+    padding: 50px 18% 0px 18%;
+  }
+  footer section aside {
+    padding: 20px 18% 0px 18%;
+  }
+  footer section section {
+    padding: 0 18%;
+  }
+  footer section div#copyrigth {
+    padding: 15px 18% 0px 18%;
+  }
 }
 @media (max-width: 1366px) {
   header section {
@@ -944,8 +956,18 @@ footer section div#copyright span a:hover {
   main section#carousel h2 {
     font-size: 40px;
   }
+  main section#article article {
+    padding: 50px 15% 0px 15%;
+  }
+  footer section aside {
+    padding: 20px 15% 0px 15%;
+  }
+  footer section section {
+    padding: 0 15%;
+  }
   footer section div#copyright {
     font-size: 11px;
+    padding: 15px 15% 0px 15%;
   }
 }
 @media (max-width: 1180px) {
@@ -1114,6 +1136,18 @@ footer section div#copyright span a:hover {
   }
   main section#carousel h2 {
     font-size: 33px;
+  }
+  main section#article article {
+    padding: 50px 10% 0px 10%;
+  }
+  footer section aside {
+    padding: 20px 10% 0px 10%;
+  }
+  footer section section {
+    padding: 0 10%;
+  }
+  footer section div#copyright {
+    padding: 15px 10% 0px 10%;
   }
 }
 @media (max-width: 1015px) {
@@ -1284,7 +1318,227 @@ footer section div#copyright span a:hover {
   }
   main section#boxfive section section#halfboxtwo section a {
     font-size: 11px;
+  }
+  main section#boxfive section section#halfboxtwo section a.learnmore {
+    width: 74px;
+  }
+  main section#boxfive section section#halfboxtwo section a.buy {
+    width: 75px;
+  }
+  main section#carousel h2 {
+    font-size: 28px;
+  }
+  main section#article article {
+    padding: 50px 5% 0px 5%;
+  }
+  footer section aside {
+    padding: 20px 5% 0px 5%;
+  }
+  footer section section {
+    padding: 0 5%;
+  }
+  footer section div#copyright {
+    padding: 15px 5% 0px 5%;
+  }
+}
+@media (max-width: 767px) {
+  header section {
+    top: 15%;
+  }
+  header section h1 {
+    font-size: 28px;
+  }
+  header section p {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  header section a {
+    font-size: 11px;
+    padding: 6px;
+  }
+  header section a.learnmore {
+    width: 75px;
+  }
+  header section a.buy {
+    width: 47px;
+  }
+  main section#boxone section {
+    top: 0;
+  }
+  main section#boxone section h2 {
+    font-size: 30px;
+  }
+  main section#boxone section h6 {
+    font-size: 18px;
+  }
+  main section#boxone section p {
+    font-size: 12px;
+    margin-bottom: 8px;
+  }
+  main section#boxone section a {
+    font-size: 11px;
+    padding: 5px;
+  }
+  main section#boxone section a.learnmore {
+    width: 75px;
+  }
+  main section#boxone section a#view {
+    width: 80px;
+  }
+  main section#boxtwo h2 {
+    top: 9%;
+    font-size: 30px;
+  }
+  main section#boxtwo section {
+    bottom: 5%;
+  }
+  main section#boxtwo section P {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  main section#boxtwo section a {
+    font-size: 11px;
+    padding: 6px;
+  }
+  main section#boxtwo section a.learnmore {
+    width: 75px;
+  }
+  main section#boxtwo section a.buy {
+    width: 50px;
+  }
+  main section#boxthree section {
+    padding: 0px;
+  }
+  main section#boxthree section section#halfboxone {
+    padding: 0px;
+    margin-bottom: 12px;
+  }
+  main section#boxthree section section#halfboxone section {
+    top: 6%;
+  }
+  main section#boxthree section section#halfboxone section h2 {
+    font-size: 17px;
+  }
+  main section#boxthree section section#halfboxone section p {
+    font-size: 12px;
+  }
+  main section#boxthree section section#halfboxone section a {
+    font-size: 11px;
     padding: 4px;
+  }
+  main section#boxthree section section#halfboxone section a.learnmore {
+    width: 75px;
+  }
+  main section#boxthree section section#halfboxone section a.buy {
+    width: 45px;
+  }
+  main section#boxthree section section#halfboxtwo {
+    padding: 0px;
+  }
+  main section#boxthree section section#halfboxtwo section {
+    top: 5%;
+  }
+  main section#boxthree section section#halfboxtwo section h2 {
+    font-size: 20px;
+  }
+  main section#boxthree section section#halfboxtwo section p {
+    font-size: 12px;
+  }
+  main section#boxthree section section#halfboxtwo section a {
+    font-size: 11px;
+    padding: 5px;
+  }
+  main section#boxthree section section#halfboxtwo section a.learnmore {
+    width: 75px;
+  }
+  main section#boxthree section section#halfboxtwo section a.buy {
+    width: 45px;
+  }
+  main section#boxfour section {
+    padding: 0px;
+  }
+  main section#boxfour section section#halfboxone {
+    padding: 0px;
+    margin-bottom: 12px;
+  }
+  main section#boxfour section section#halfboxone section {
+    top: 3%;
+  }
+  main section#boxfour section section#halfboxone section h2 {
+    font-size: 20px;
+  }
+  main section#boxfour section section#halfboxone section p {
+    font-size: 12px;
+  }
+  main section#boxfour section section#halfboxone section a {
+    font-size: 11px;
+    padding: 5px;
+  }
+  main section#boxfour section section#halfboxone section a.learnmore {
+    width: 75px;
+  }
+  main section#boxfour section section#halfboxone section a.buy {
+    width: 45px;
+  }
+  main section#boxfour section section#halfboxtwo {
+    padding: 0px;
+  }
+  main section#boxfour section section#halfboxtwo section {
+    top: 3%;
+  }
+  main section#boxfour section section#halfboxtwo section h2 {
+    font-size: 19px;
+  }
+  main section#boxfour section section#halfboxtwo section p {
+    font-size: 12px;
+  }
+  main section#boxfour section section#halfboxtwo section a {
+    font-size: 11px;
+    padding: 5px;
+  }
+  main section#boxfour section section#halfboxtwo section a.learnmore {
+    width: 75px;
+  }
+  main section#boxfour section section#halfboxtwo section a.buy {
+    width: 45px;
+  }
+  main section#boxfive section {
+    padding: 0px;
+  }
+  main section#boxfive section section#halfboxone {
+    padding: 0px;
+    margin-bottom: 12px;
+  }
+  main section#boxfive section section#halfboxone section {
+    top: 2%;
+  }
+  main section#boxfive section section#halfboxone section h2 {
+    font-size: 19px;
+  }
+  main section#boxfive section section#halfboxone section p {
+    font-size: 12px;
+  }
+  main section#boxfive section section#halfboxone section a {
+    font-size: 11px;
+    padding: 5px;
+  }
+  main section#boxfive section section#halfboxone section a.learnmore {
+    width: 75px;
+  }
+  main section#boxfive section section#halfboxtwo {
+    padding: 0px;
+  }
+  main section#boxfive section section#halfboxtwo section {
+    top: 2%;
+  }
+  main section#boxfive section section#halfboxtwo section h2 {
+    font-size: 20px;
+  }
+  main section#boxfive section section#halfboxtwo section p {
+    font-size: 12px;
+  }
+  main section#boxfive section section#halfboxtwo section a {
+    font-size: 11px;
   }
   main section#boxfive section section#halfboxtwo section a.learnmore {
     width: 74px;
