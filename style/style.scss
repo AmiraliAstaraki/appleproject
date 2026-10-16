@@ -2005,23 +2005,34 @@ footer {
   // ______________header________________
 
   header {
+
+    img{
+
+      height: 400px;
+    }
     section {
       top: 15%;
 
       h1 {
-        font-size: 60px;
+        font-size: 37px;
+      }
+
+      p{
+
+        font-size: 22px;
       }
 
       a {
-        font-size: 15px;
+        font-size: 14px;
+        padding: 5px;
       }
 
       a.learnmore {
-        width: 105px;
+        width: 100px;
       }
 
       a.buy {
-        width: 68px;
+        width: 60px;
       }
     }
   }
@@ -2032,22 +2043,33 @@ footer {
     // _____________box1_________________
 
     section#boxone {
+
+      img{
+
+        height: 370px;
+      }
       section {
-        top: 6%;
+        top: 1%;
         h2 {
-          font-size: 50px;
+          font-size: 37px;
+        }
+
+        h6{
+
+          font-size: 20px;
         }
 
         a {
-          font-size: 13px;
+          font-size: 14px;
+          padding: 5px;
         }
 
         a.learnmore {
-          width: 105px;
+          width: 95px;
         }
 
         a#view {
-          width: 115px;
+          width: 100px;
         }
       }
     }
@@ -2055,27 +2077,33 @@ footer {
     // ________________box2_________________
 
     section#boxtwo {
+
+      img{
+
+        height: 400px;
+      }
       h2 {
         top: 10%;
-        font-size: 45px;
+        font-size: 30px;
       }
 
       section {
-        bottom: 8%;
+        bottom: 5%;
 
         P {
-          font-size: 27px;
+          font-size: 18px;
         }
         a {
           font-size: 13px;
+          padding: 5px;
         }
 
         a.learnmore {
-          width: 105px;
+          width: 95px;
         }
 
         a.buy {
-          width: 65px;
+          width: 55px;
         }
       }
     }
@@ -2084,7 +2112,14 @@ footer {
 
     section#boxthree {
       section {
+
+        padding: 0px;
+
         section#halfboxone {
+
+          padding: 0px;
+          margin-bottom: $mb-box;
+
           section {
             top: 5%;
 
@@ -2112,6 +2147,9 @@ footer {
         }
 
         section#halfboxtwo {
+
+          padding: 0px;
+
           section {
             top: 5%;
 
@@ -2144,7 +2182,14 @@ footer {
 
     section#boxfour {
       section {
+
+        padding: 0px;
+
         section#halfboxone {
+
+          padding: 0px;
+          margin-bottom: $mb-box;
+
           section {
             top: 5%;
 
@@ -2172,6 +2217,9 @@ footer {
         }
 
         section#halfboxtwo {
+
+          padding: 0px;
+          
           section {
             top: 4%;
 
@@ -2204,7 +2252,14 @@ footer {
 
     section#boxfive {
       section {
+
+        padding: 0px;
+
         section#halfboxone {
+
+          padding: 0px;
+          margin-bottom: $mb-box;
+
           section {
             top: 5%;
 
@@ -2227,6 +2282,9 @@ footer {
         }
 
         section#halfboxtwo {
+          
+          padding: 0px;
+
           section {
             top: 4%;
 
@@ -2294,26 +2352,37 @@ footer {
 // ________________________________media(633px)______________________________
 
 @media (max-width: 633px) {
-  // ______________header________________
+ // ______________header________________
 
   header {
+
+    img{
+
+      height: 400px;
+    }
     section {
       top: 15%;
 
       h1 {
-        font-size: 60px;
+        font-size: 35px;
+      }
+
+      p{
+
+        font-size: 22px;
       }
 
       a {
-        font-size: 15px;
+        font-size: 14px;
+        padding: 5px;
       }
 
       a.learnmore {
-        width: 105px;
+        width: 100px;
       }
 
       a.buy {
-        width: 68px;
+        width: 60px;
       }
     }
   }
@@ -2324,22 +2393,33 @@ footer {
     // _____________box1_________________
 
     section#boxone {
+
+      img{
+
+        height: 370px;
+      }
       section {
-        top: 6%;
+        top: 1%;
         h2 {
-          font-size: 50px;
+          font-size: 37px;
+        }
+
+        h6{
+
+          font-size: 20px;
         }
 
         a {
-          font-size: 13px;
+          font-size: 14px;
+          padding: 5px;
         }
 
         a.learnmore {
-          width: 105px;
+          width: 95px;
         }
 
         a#view {
-          width: 115px;
+          width: 100px;
         }
       }
     }
@@ -2347,27 +2427,33 @@ footer {
     // ________________box2_________________
 
     section#boxtwo {
+
+      img{
+
+        height: 400px;
+      }
       h2 {
         top: 10%;
-        font-size: 45px;
+        font-size: 27px;
       }
 
       section {
-        bottom: 8%;
+        bottom: 5%;
 
         P {
-          font-size: 27px;
+          font-size: 18px;
         }
         a {
           font-size: 13px;
+          padding: 5px;
         }
 
         a.learnmore {
-          width: 105px;
+          width: 95px;
         }
 
         a.buy {
-          width: 65px;
+          width: 55px;
         }
       }
     }

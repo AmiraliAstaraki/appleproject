@@ -1347,54 +1347,79 @@ footer section div#copyright span a:hover {
   }
 }
 @media (max-width: 767px) {
+  header img {
+    height: 400px;
+  }
   header section {
     top: 15%;
   }
   header section h1 {
-    font-size: 60px;
+    font-size: 37px;
+  }
+  header section p {
+    font-size: 22px;
   }
   header section a {
-    font-size: 15px;
+    font-size: 14px;
+    padding: 5px;
   }
   header section a.learnmore {
-    width: 105px;
+    width: 100px;
   }
   header section a.buy {
-    width: 68px;
+    width: 60px;
+  }
+  main section#boxone img {
+    height: 370px;
   }
   main section#boxone section {
-    top: 6%;
+    top: 1%;
   }
   main section#boxone section h2 {
-    font-size: 50px;
+    font-size: 37px;
+  }
+  main section#boxone section h6 {
+    font-size: 20px;
   }
   main section#boxone section a {
-    font-size: 13px;
+    font-size: 14px;
+    padding: 5px;
   }
   main section#boxone section a.learnmore {
-    width: 105px;
+    width: 95px;
   }
   main section#boxone section a#view {
-    width: 115px;
+    width: 100px;
+  }
+  main section#boxtwo img {
+    height: 400px;
   }
   main section#boxtwo h2 {
     top: 10%;
-    font-size: 45px;
+    font-size: 30px;
   }
   main section#boxtwo section {
-    bottom: 8%;
+    bottom: 5%;
   }
   main section#boxtwo section P {
-    font-size: 27px;
+    font-size: 18px;
   }
   main section#boxtwo section a {
     font-size: 13px;
+    padding: 5px;
   }
   main section#boxtwo section a.learnmore {
-    width: 105px;
+    width: 95px;
   }
   main section#boxtwo section a.buy {
-    width: 65px;
+    width: 55px;
+  }
+  main section#boxthree section {
+    padding: 0px;
+  }
+  main section#boxthree section section#halfboxone {
+    padding: 0px;
+    margin-bottom: 12px;
   }
   main section#boxthree section section#halfboxone section {
     top: 5%;
@@ -1415,6 +1440,9 @@ footer section div#copyright span a:hover {
   main section#boxthree section section#halfboxone section a.buy {
     width: 70px;
   }
+  main section#boxthree section section#halfboxtwo {
+    padding: 0px;
+  }
   main section#boxthree section section#halfboxtwo section {
     top: 5%;
   }
@@ -1433,6 +1461,13 @@ footer section div#copyright span a:hover {
   }
   main section#boxthree section section#halfboxtwo section a.buy {
     width: 70px;
+  }
+  main section#boxfour section {
+    padding: 0px;
+  }
+  main section#boxfour section section#halfboxone {
+    padding: 0px;
+    margin-bottom: 12px;
   }
   main section#boxfour section section#halfboxone section {
     top: 5%;
@@ -1453,6 +1488,9 @@ footer section div#copyright span a:hover {
   main section#boxfour section section#halfboxone section a.buy {
     width: 70px;
   }
+  main section#boxfour section section#halfboxtwo {
+    padding: 0px;
+  }
   main section#boxfour section section#halfboxtwo section {
     top: 4%;
   }
@@ -1472,6 +1510,13 @@ footer section div#copyright span a:hover {
   main section#boxfour section section#halfboxtwo section a.buy {
     width: 70px;
   }
+  main section#boxfive section {
+    padding: 0px;
+  }
+  main section#boxfive section section#halfboxone {
+    padding: 0px;
+    margin-bottom: 12px;
+  }
   main section#boxfive section section#halfboxone section {
     top: 5%;
   }
@@ -1486,6 +1531,9 @@ footer section div#copyright span a:hover {
   }
   main section#boxfive section section#halfboxone section a.learnmore {
     width: 120px;
+  }
+  main section#boxfive section section#halfboxtwo {
+    padding: 0px;
   }
   main section#boxfive section section#halfboxtwo section {
     top: 4%;
@@ -1523,54 +1571,72 @@ footer section div#copyright span a:hover {
   }
 }
 @media (max-width: 633px) {
+  header img {
+    height: 400px;
+  }
   header section {
     top: 15%;
   }
   header section h1 {
-    font-size: 60px;
+    font-size: 35px;
+  }
+  header section p {
+    font-size: 22px;
   }
   header section a {
-    font-size: 15px;
+    font-size: 14px;
+    padding: 5px;
   }
   header section a.learnmore {
-    width: 105px;
+    width: 100px;
   }
   header section a.buy {
-    width: 68px;
+    width: 60px;
+  }
+  main section#boxone img {
+    height: 370px;
   }
   main section#boxone section {
-    top: 6%;
+    top: 1%;
   }
   main section#boxone section h2 {
-    font-size: 50px;
+    font-size: 37px;
+  }
+  main section#boxone section h6 {
+    font-size: 20px;
   }
   main section#boxone section a {
-    font-size: 13px;
+    font-size: 14px;
+    padding: 5px;
   }
   main section#boxone section a.learnmore {
-    width: 105px;
+    width: 95px;
   }
   main section#boxone section a#view {
-    width: 115px;
+    width: 100px;
+  }
+  main section#boxtwo img {
+    height: 400px;
   }
   main section#boxtwo h2 {
     top: 10%;
-    font-size: 45px;
+    font-size: 27px;
   }
   main section#boxtwo section {
-    bottom: 8%;
+    bottom: 5%;
   }
   main section#boxtwo section P {
-    font-size: 27px;
+    font-size: 18px;
   }
   main section#boxtwo section a {
     font-size: 13px;
+    padding: 5px;
   }
   main section#boxtwo section a.learnmore {
-    width: 105px;
+    width: 95px;
   }
   main section#boxtwo section a.buy {
-    width: 65px;
+    width: 55px;
   }
   main section#boxthree section {
     padding: 0px;
